@@ -5,8 +5,8 @@ Getting and Cleaning data course project
 ##Summary
 This course project aims to merge and tidy train and test parts for the **Human Activity Recognition Using Smartphones Data Set**.
 
-[dataset documentation](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+-[dataset documentation](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+-[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Instructions
 Script requires data to be unziped and stored in **/data** folder.
