@@ -6,6 +6,7 @@ Getting and Cleaning data course project
 This course project aims to merge and tidy train and test parts for the **Human Activity Recognition Using Smartphones Data Set**.
 
 -[dataset documentation](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+
 -[source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Instructions
@@ -27,7 +28,8 @@ Then we apply this function to filter, creating new, reduced dataset.
 ####4. Uses descriptive activity names to name the activities in the data set
 Now we transform both **subject** and **labels** to factor levels. 
 then, using **mapvalues** function from **plyr** package we rename labels in **labels** with the given vector of names (I hardwrited labels as ther is only six of them)
-####5.
+
+####5. creates an independent tidy data set with the average of each variable for each activity and each subject
 Now we aggregate averages for each activity type and subject using **aggregate** function.
 
 ####6. Saving file
