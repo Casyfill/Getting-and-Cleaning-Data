@@ -42,11 +42,11 @@ checkName <- function(name){
 filter <- sapply(names(datum), checkName)
 dataTiny <- datum[,filter]
 #3. Uses descriptive activity names to name the activities in the data set
-dataTiny$labels <- as.factor(dataTiny$labels)
-dataTiny$subject <- as.factor(dataTiny$subject)
 
 #4. Appropriately labels the data set with descriptive variable names. 
 library(plyr)
+dataTiny$labels <- as.factor(dataTiny$labels)
+dataTiny$subject <- as.factor(dataTiny$subject)
 
 dataTiny$labels <- mapvalues(dataTiny$labels, from = c("1", "2","3","4","5","6"), to = c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" ,"LAYING"))
 
